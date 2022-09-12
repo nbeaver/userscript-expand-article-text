@@ -12,16 +12,17 @@
 // @version     0.1
 // ==/UserScript==
 
-function expandAllText() {
-  expandable_elems = document.getElementsByClassName('expandable');
-  for (var i = 0; i < expandable_elems.length; i++) {
-    elem = expandable_elems[i];
+(function() {
+  'use strict';
+  var expandable_elems = document.getElementsByClassName('expandable');
+  var i;
+  for (i = 0; i < expandable_elems.length; i++) {
+    var elem = expandable_elems[i];
     if (elem.lastChild.classList.contains('expandable-body')) {
       // Already expanded, do nothing.
     } else {
-       first_child = elem.children[0];
+       var first_child = elem.children[0];
        first_child.click();
     }
   }
-}
-expandAllText();
+})();
