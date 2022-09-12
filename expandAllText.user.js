@@ -10,10 +10,10 @@
 // ==/UserScript==
 
 function expandAllText() {
-  expandable_elems = document.getElementsByClassName("expandable")
+  expandable_elems = document.getElementsByClassName('expandable');
   for (var i = 0; i < expandable_elems.length; i++) {
-    elem = expandable_elems[i]
-    if (elem.lastChild.classList.contains("expandable-body")) {
+    elem = expandable_elems[i];
+    if (elem.lastChild.classList.contains('expandable-body')) {
       // Already expanded, do nothing.
     } else {
        first_child = elem.children[0];
