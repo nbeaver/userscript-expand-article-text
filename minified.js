@@ -1,0 +1,1 @@
+function f(){expandable_elems=document.getElementsByClassName("expandable");for(var a=0;a<expandable_elems.length;a++){elem=expandable_elems[a];if(elem.lastChild.classList.contains("expandable-body")){}else{first_child=elem.children[0];first_child.click()}}}document.getElementById("bookmarklet").href="javascript:("+f.toString()+")();";
