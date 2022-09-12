@@ -17,7 +17,7 @@ function expandAllText() {
       // Already expanded, do nothing.
     } else {
        first_child = elem.children[0];
-       first_child.click();	 
+       first_child.click();
     }
   }
 }
