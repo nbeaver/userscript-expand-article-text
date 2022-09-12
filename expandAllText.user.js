@@ -2,10 +2,13 @@
 // @name        Expand journal article text.
 // @description Expand journal article text on APS journals.
 // @grant       none
-// @include     http*://journals.aps.org/*
+// @match       http://journals.aps.org/*
+// @match       https://journals.aps.org/*
+// @author      Nathaniel Morck Foley-Beaver
+// @namespace   https://github.com/nbeaver/
 // @license     MIT
 // @namespace   https://github.com/nbeaver/
-// @supportURL  https://github.com/nbeaver/userscript-expand-article-text
+// @homepageURL  https://github.com/nbeaver/userscript-expand-article-text
 // @version     0.1
 // ==/UserScript==
 
