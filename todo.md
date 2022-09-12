@@ -1,0 +1,2 @@
+- [ ] Make sure it works on all articles.
+- [ ] Upload to GreasyFork.org
