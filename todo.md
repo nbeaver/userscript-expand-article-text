@@ -1,2 +1,3 @@
+- [ ] Figure out how to recursively expand or iteratively expand all nodes.
 - [ ] Make sure it works on all articles.
 - [ ] Upload to GreasyFork.org
