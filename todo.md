@@ -1,4 +1,4 @@
-- [ ] Also expand supporting material (TODO: find example)
+- [ ] Also expand supplemental material, e.g. https://doi.org/10.1103/PhysRevLett.108.197601
 - [ ] Also expand boxes like in e.g. https://doi.org/10.1038/s41592-019-0543-3
 - [ ] Figure out how to recursively expand or iteratively expand all nodes.
 - [ ] Make sure it works on all articles.
